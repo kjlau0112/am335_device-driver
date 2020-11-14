@@ -1,0 +1,1 @@
+cmd_/home/kj/beagleboneKernelCode/helloworld//hello_world.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -T ./arch/arm/kernel/module.lds -o /home/kj/beagleboneKernelCode/helloworld//hello_world.ko /home/kj/beagleboneKernelCode/helloworld//hello_world.o /home/kj/beagleboneKernelCode/helloworld//hello_world.mod.o ;  true
